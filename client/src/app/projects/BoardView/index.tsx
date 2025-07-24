@@ -6,7 +6,6 @@ import { Task as TaskType } from '@/state/api';
 import { EllipsisVertical, MessageSquareMore, Plus } from 'lucide-react';
 import { format } from "date-fns"
 import Image from "next/image";
-import { Priority } from '../../../state/api';
 
 type BoardProps = {
   id: string;
